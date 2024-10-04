@@ -18,7 +18,13 @@ function KeyboardRecommender() {
   return (
     <>
       {!isVerificationComplete && (
-        <VerificationButton onClick={handleCreateClaim} />
+        <>
+          <VerificationButton onClick={handleCreateClaim} />
+          <p>
+            Scan the QR code below to verify your typing accuracy and receive
+            keyboard recommendations.
+          </p>
+        </>
       )}
       {requestUrl && !isVerificationComplete && (
         <QRCodeDisplay requestUrl={requestUrl} />

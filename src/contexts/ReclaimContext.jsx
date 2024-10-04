@@ -3,7 +3,6 @@ import { ReclaimProofRequest } from '@reclaimprotocol/js-sdk';
 import { RECLAIM_CONFIG } from '../config';
 
 export const ReclaimContext = createContext();
-
 export const ReclaimProvider = ({ children }) => {
   const [reclaimProofRequest, setReclaimProofRequest] = useState(null);
 
