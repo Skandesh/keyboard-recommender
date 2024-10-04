@@ -2,46 +2,46 @@ export function getKeyboardRecommendations(accuracy, wpm) {
   if (accuracy > 80 || wpm > 80) {
     return [
       {
-        name: 'Ducky One 3 SF',
-        link: 'https://www.amazon.com/dp/B09J1PJM3D?tag=youraffiliateid-20',
+        name: 'Das Keyboard Model S Professional',
+        link: 'https://amzn.to/3zOudNw',
       },
       {
-        name: 'Keychron Q1',
-        link: 'https://www.amazon.com/dp/B09FHMBVJ6?tag=youraffiliateid-20',
+        name: 'Happy Hacking Keyboard Professional 2',
+        link: 'https://amzn.to/47Ql1F3',
       },
       {
-        name: 'GMMK Pro',
-        link: 'https://www.amazon.com/dp/B09C1DG1QJ?tag=youraffiliateid-20',
+        name: 'Logitech MX Keys',
+        link: 'https://amzn.to/3BvWF7f',
       },
     ];
   } else if (accuracy > 60 || wpm > 60) {
     return [
       {
-        name: 'Leopold FC660M',
-        link: 'https://www.amazon.com/dp/B08CZVCF4B?tag=youraffiliateid-20',
+        name: 'Keychron K1',
+        link: 'https://amzn.to/3ZTbOd0',
       },
       {
-        name: 'Varmilo VA87M',
-        link: 'https://www.amazon.com/dp/B08XJSBRM3?tag=youraffiliateid-20',
+        name: 'Razer Pro Type',
+        link: 'https://amzn.to/4eOOb9N',
       },
       {
-        name: 'Durgod K320',
-        link: 'https://www.amazon.com/dp/B07QK16RDQ?tag=youraffiliateid-20',
+        name: 'Keychron K2',
+        link: 'https://amzn.to/3zMUR9u',
       },
     ];
   } else {
     return [
       {
         name: 'Redragon K552',
-        link: 'https://www.amazon.com/dp/B016MAK38U?tag=youraffiliateid-20',
+        link: 'https://amzn.to/3zLDQwm',
       },
       {
         name: 'Keychron C1',
-        link: 'https://www.amazon.com/dp/B08CNHX5HN?tag=youraffiliateid-20',
+        link: 'https://amzn.to/4gPrpQX',
       },
       {
         name: 'Royal Kludge RK61',
-        link: 'https://www.amazon.com/dp/B0832CZNS5?tag=youraffiliateid-20',
+        link: 'https://amzn.to/4gPmqzH',
       },
     ];
   }
